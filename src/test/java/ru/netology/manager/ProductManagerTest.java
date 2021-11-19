@@ -42,7 +42,7 @@ class ProductManagerTest {
         manager.add(java3);
         manager.add(many);
 
-        manager.searchBy(textForSearch);
+        //manager.searchBy(textForSearch);
 
         Product[] expected = new Product[]{java3,};
         Product[] actual = manager.searchBy(textForSearch);
